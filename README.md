@@ -19,7 +19,7 @@ It's recommended to use a virtual environment for this project. You can create a
 
 ```bash
 python -m venv env
-source venv/bin/activate
+source env/bin/activate
 ```
 
 ### Install Dependencies
