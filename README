@@ -30,8 +30,9 @@ Install the project dependencies using pip:
     pip install -r requirements.txt
 ```
 
-> Set Up Environment Variables
-> Create a .env file in the root of the project and configure the necessary environment variables for your Flask application. These are the required environment variables for the project to function:
+### Set Up Environment Variables
+
+Create a .env file in the root of the project and configure the necessary environment variables for your Flask application. These are the required environment variables for the project to function:
 
 ```bash
     FLASK_APP='main.py'
@@ -44,7 +45,7 @@ Install the project dependencies using pip:
 To run the application in development mode, you can use the boot.sh script:
 
 ```bash
-./boot.sh
+    ./boot.sh
 ```
 
 This will run your Flask application in development mode using Flask's built-in server.
@@ -59,12 +60,12 @@ Once the application is up and running, you can access it from your web browser 
 
 ### Project Structure
 
-    - app/: Directory containing the Flask application files.
-    - env/: Directory containing the virtual environment (ignored by Git).
-    - boot.sh: Startup script to run the application.
-    - requirements.txt: File containing Python dependencies for the project.
-    - settings.py: Configuration file for the application.
-    - main.py: Main file of the Flask application.
+-   app/: Directory containing the Flask application files.
+-   env/: Directory containing the virtual environment (ignored by Git).
+-   boot.sh: Startup script to run the application.
+-   requirements.txt: File containing Python dependencies for the project.
+-   settings.py: Configuration file for the application.
+-   main.py: Main file of the Flask application.
 
 ### Contribution
 
