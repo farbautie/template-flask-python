@@ -11,15 +11,15 @@ Follow these steps to get started with your project
 Clone this repository to your local machine using Git:
 
 ```bash
-    git clone https://github.com/farbautie/template-flask-python.git
+git clone https://github.com/farbautie/template-flask-python.git
 ```
 
 Set Up the Virtual Environment (Optional but Recommended)
 It's recommended to use a virtual environment for this project. You can create and activate a virtual environment using env
 
 ```bash
-    python -m venv env
-    source venv/bin/activate
+python -m venv env
+source venv/bin/activate
 ```
 
 ### Install Dependencies
@@ -27,7 +27,7 @@ It's recommended to use a virtual environment for this project. You can create a
 Install the project dependencies using pip:
 
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Set Up Environment Variables
@@ -35,9 +35,9 @@ Install the project dependencies using pip:
 Create a .env file in the root of the project and configure the necessary environment variables for your Flask application. These are the required environment variables for the project to function:
 
 ```bash
-    FLASK_APP='main.py'
-    FLASK_ENV='development' | 'production' | 'testing'
-    FLASK_DEBUG=True | False
+FLASK_APP='main.py'
+FLASK_ENV='development' | 'production' | 'testing'
+FLASK_DEBUG=True | False
 ```
 
 ### Run the Application
@@ -45,7 +45,7 @@ Create a .env file in the root of the project and configure the necessary enviro
 To run the application in development mode, you can use the boot.sh script:
 
 ```bash
-    ./boot.sh
+./boot.sh
 ```
 
 This will run your Flask application in development mode using Flask's built-in server.
@@ -55,7 +55,7 @@ This will run your Flask application in development mode using Flask's built-in 
 Once the application is up and running, you can access it from your web browser at the following address:
 
 ```bash
-    http://localhost:8000
+http://localhost:8000
 ```
 
 ### Project Structure
